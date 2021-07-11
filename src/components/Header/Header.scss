@@ -1,0 +1,47 @@
+@import "../../styles/all";
+
+// Header section
+
+.header {
+  padding: 2rem 1.5rem;
+  .logo {
+    a {
+      display: inline-block;
+      height: 4rem;
+      width: 4rem;
+      border: 2px solid $skin_color;
+      text-align: center;
+      line-height: 3.5rem;
+      font-size: 24px;
+      color: $skin_color;
+      border-radius: 50%;
+      font-weight: 600;
+    }
+  }
+  .humberger_btn {
+    height: 4rem;
+    width: 4rem;
+    box-shadow: $outer_shadow_3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    span {
+      display: block;
+      height: 0.2rem;
+      width: 1.6rem;
+      background-color: $bg_black_900;
+      position: relative;
+      &::before {
+        @include humberger_btn;
+        top: -0.6rem;
+      }
+      &::after {
+        @include humberger_btn;
+        top: 0.6rem;
+      }
+    }
+  }
+}

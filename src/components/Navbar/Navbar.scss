@@ -1,0 +1,54 @@
+@import "../../styles/all";
+
+.nav_menu {
+  position: fixed;
+  background: $bg_black_50;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  padding: 0 15px;
+  .close_nav_menu {
+    display: block;
+    font-size: 3.5rem;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 3.5rem;
+    text-align: center;
+    color: #666666;
+    border-radius: 50%;
+    height: 3.5rem;
+    line-height: 3.2rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  .nav_menu_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  ul {
+    li {
+      margin-bottom: 1rem;
+      .active {
+        color: $color_5 !important;
+      }
+      a {
+        font-size: 2.8rem;
+        font-weight: 600;
+        color: $text_black_700;
+        display: inline-block;
+        padding: 0.5rem 3rem;
+        border-radius: 30px;
+        text-transform: capitalize;
+        transition: all 0.3s ease;
+        &:hover {
+          color: $color_5;
+        }
+      }
+    }
+  }
+}
