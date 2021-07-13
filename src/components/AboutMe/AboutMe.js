@@ -14,6 +14,20 @@ const AboutMe = () => {
             <div className="inner_shadow about_img">
               <img src={profile} alt="" className="outer_shadow" />
             </div>
+            <div className="social_media_icon">
+              <a href="">
+                <i class="fab fa-facebook-f outer_shaddow hover_in_shadow btn_1"></i>
+              </a>
+              <a href="">
+                <i class="fab fa-twitter outer_shaddow hover_in_shadow btn_1"></i>
+              </a>
+              <a href="">
+                <i class="fab fa-instagram outer_shaddow hover_in_shadow btn_1"></i>
+              </a>
+              <a href="">
+                <i class="fab fa-linkedin-in outer_shaddow hover_in_shadow btn_1"></i>
+              </a>
+            </div>
           </div>
           <div className="col-xxl-7">
             <div className="about_info">

@@ -1,0 +1,21 @@
+@import "../../styles/all";
+.about_tab {
+  .about_tabs {
+    .tab_item {
+      padding: 5px 10px;
+      border-radius: 30px;
+      display: inline-block;
+      margin: 0px 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      color: $text_black_600;
+      font-weight: 500;
+      &:hover:not(.active) {
+        opacity: 0.6;
+      }
+    }
+    .active {
+      color: $skin_color;
+    }
+  }
+}

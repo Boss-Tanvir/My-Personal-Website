@@ -26,6 +26,22 @@
         border-radius: 0.5rem;
       }
     }
+    .social_media_icon {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      a {
+        padding: 0 1rem;
+      }
+      i {
+        padding: 0;
+        color: $text_black_600;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        text-align: center;
+      }
+    }
   }
   .about_info {
     span {

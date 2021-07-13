@@ -30,6 +30,9 @@ body {
 a {
   text-decoration: none;
 }
+a:hover {
+  color: $text_black_600;
+}
 ul {
   list-style: none;
   margin: 0;
