@@ -1,0 +1,40 @@
+@import "../../styles/all";
+.about_me {
+  height: 100vh;
+  padding-top: 10rem;
+  .section_title {
+    text-align: center;
+    p {
+      font-weight: 600;
+      color: $skin_color;
+    }
+    h2 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: $text_black_900;
+    }
+  }
+  .about_div {
+    max-width: 30% !important;
+    .about_img {
+      width: 35rem;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      img {
+        width: 100%;
+        border: 1rem solid transparent;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+  .about_info {
+    span {
+      font-weight: 600;
+      color: $text_black_900;
+    }
+    p {
+      line-height: 2.6rem;
+      color: $text_black_600;
+    }
+  }
+}

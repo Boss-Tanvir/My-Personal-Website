@@ -38,6 +38,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+      <div className="copyright_text">&copy; 2021 by Tanvir Ahamed</div>
     </nav>
   );
 };

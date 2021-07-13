@@ -1,0 +1,36 @@
+@import "../../styles/all";
+
+.home {
+  position: relative;
+  .home_text {
+    p {
+      color: $text_black_300;
+      font-size: 1.8rem;
+      margin: 0;
+    }
+    h2 {
+      font-size: 5.5rem;
+      color: $text_black_900;
+      font-weight: 700;
+      margin: 0;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 500;
+      color: $text_black_700;
+      margin: 0;
+    }
+  }
+  .home_img {
+    max-width: 450px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    padding: 15px;
+    img {
+      border-radius: 50%;
+      border: 10px solid transparent;
+      width: 100%;
+    }
+  }
+}

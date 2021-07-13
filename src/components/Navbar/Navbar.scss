@@ -7,7 +7,9 @@
   height: 100%;
   left: 0;
   top: 0;
-  z-index: 999;
+  z-index: -1;
+  visibility: hidden;
+  opacity: 0;
   padding: 0 15px;
   .close_nav_menu {
     display: block;
@@ -50,5 +52,14 @@
         }
       }
     }
+  }
+  .copyright_text {
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: -6rem;
+    transform: translateY(-50%) rotate(-90deg);
+    font-size: 1.5rem;
+    color: $text_black_600;
   }
 }
