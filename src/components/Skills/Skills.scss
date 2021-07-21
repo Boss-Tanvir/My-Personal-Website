@@ -1,0 +1,34 @@
+@import "../../styles/all";
+
+.skills {
+  height: 350px;
+  .tab_content {
+    margin: 2rem 0;
+    .skill_item {
+      padding: 0 2.5em;
+      p {
+        color: $text_black_600;
+      }
+      .progresses {
+        position: relative;
+        height: 2rem;
+        border-radius: 1rem;
+        .progress_bar {
+          position: absolute;
+          height: 0.6rem;
+          left: 0.7rem;
+          top: 0.7rem;
+          border-radius: 1rem;
+          background-color: $text_black_600;
+          span {
+            position: absolute;
+            top: -4rem;
+            right: 0;
+            color: $text_black_600;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
